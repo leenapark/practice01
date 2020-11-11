@@ -15,5 +15,7 @@ public class Ex16 {
 		System.out.println("상품가격: "+money);
 		System.out.println("부가세: "+(price/10));
 		System.out.println("잔액: " + (money-price));
+		
+		sc.close();
 	}
 }
